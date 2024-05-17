@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2E878C42BF6F5390045E651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878C32BF6F5390045E651 /* AppDelegate.swift */; };
+		A2E878C62BF6F5390045E651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878C52BF6F5390045E651 /* ViewController.swift */; };
+		A2E878C82BF6F53B0045E651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E878C72BF6F53B0045E651 /* Assets.xcassets */; };
+		A2E878CB2BF6F53B0045E651 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A2E878CA2BF6F53B0045E651 /* Base */; };
+		A2E878D62BF6F53C0045E651 /* TextTyperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878D52BF6F53C0045E651 /* TextTyperTests.swift */; };
+		A2E878E02BF6F53C0045E651 /* TextTyperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878DF2BF6F53C0045E651 /* TextTyperUITests.swift */; };
+		A2E878E22BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878E12BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2E878D22BF6F53C0045E651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2E878B82BF6F5390045E651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E878BF2BF6F5390045E651;
+			remoteInfo = TextTyper;
+		};
+		A2E878DC2BF6F53C0045E651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2E878B82BF6F5390045E651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E878BF2BF6F5390045E651;
+			remoteInfo = TextTyper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2E878C02BF6F5390045E651 /* TextTyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E878C32BF6F5390045E651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2E878C52BF6F5390045E651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2E878C72BF6F53B0045E651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2E878CA2BF6F53B0045E651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2E878CC2BF6F53B0045E651 /* TextTyper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextTyper.entitlements; sourceTree = "<group>"; };
+		A2E878D12BF6F53C0045E651 /* TextTyperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTyperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E878D52BF6F53C0045E651 /* TextTyperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTyperTests.swift; sourceTree = "<group>"; };
+		A2E878DB2BF6F53C0045E651 /* TextTyperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTyperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E878DF2BF6F53C0045E651 /* TextTyperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTyperUITests.swift; sourceTree = "<group>"; };
+		A2E878E12BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTyperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2E878BD2BF6F5390045E651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E878CE2BF6F53C0045E651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E878D82BF6F53C0045E651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2E878B72BF6F5390045E651 = {
+			isa = PBXGroup;
+			children = (
+				A2E878C22BF6F5390045E651 /* TextTyper */,
+				A2E878D42BF6F53C0045E651 /* TextTyperTests */,
+				A2E878DE2BF6F53C0045E651 /* TextTyperUITests */,
+				A2E878C12BF6F5390045E651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2E878C12BF6F5390045E651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2E878C02BF6F5390045E651 /* TextTyper.app */,
+				A2E878D12BF6F53C0045E651 /* TextTyperTests.xctest */,
+				A2E878DB2BF6F53C0045E651 /* TextTyperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2E878C22BF6F5390045E651 /* TextTyper */ = {
+			isa = PBXGroup;
+			children = (
+				A2E878C32BF6F5390045E651 /* AppDelegate.swift */,
+				A2E878C52BF6F5390045E651 /* ViewController.swift */,
+				A2E878C72BF6F53B0045E651 /* Assets.xcassets */,
+				A2E878C92BF6F53B0045E651 /* Main.storyboard */,
+				A2E878CC2BF6F53B0045E651 /* TextTyper.entitlements */,
+			);
+			path = TextTyper;
+			sourceTree = "<group>";
+		};
+		A2E878D42BF6F53C0045E651 /* TextTyperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2E878D52BF6F53C0045E651 /* TextTyperTests.swift */,
+			);
+			path = TextTyperTests;
+			sourceTree = "<group>";
+		};
+		A2E878DE2BF6F53C0045E651 /* TextTyperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2E878DF2BF6F53C0045E651 /* TextTyperUITests.swift */,
+				A2E878E12BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift */,
+			);
+			path = TextTyperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2E878BF2BF6F5390045E651 /* TextTyper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E878E52BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyper" */;
+			buildPhases = (
+				A2E878BC2BF6F5390045E651 /* Sources */,
+				A2E878BD2BF6F5390045E651 /* Frameworks */,
+				A2E878BE2BF6F5390045E651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextTyper;
+			productName = TextTyper;
+			productReference = A2E878C02BF6F5390045E651 /* TextTyper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2E878D02BF6F53C0045E651 /* TextTyperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E878E82BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyperTests" */;
+			buildPhases = (
+				A2E878CD2BF6F53C0045E651 /* Sources */,
+				A2E878CE2BF6F53C0045E651 /* Frameworks */,
+				A2E878CF2BF6F53C0045E651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2E878D32BF6F53C0045E651 /* PBXTargetDependency */,
+			);
+			name = TextTyperTests;
+			productName = TextTyperTests;
+			productReference = A2E878D12BF6F53C0045E651 /* TextTyperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2E878DA2BF6F53C0045E651 /* TextTyperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E878EB2BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyperUITests" */;
+			buildPhases = (
+				A2E878D72BF6F53C0045E651 /* Sources */,
+				A2E878D82BF6F53C0045E651 /* Frameworks */,
+				A2E878D92BF6F53C0045E651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2E878DD2BF6F53C0045E651 /* PBXTargetDependency */,
+			);
+			name = TextTyperUITests;
+			productName = TextTyperUITests;
+			productReference = A2E878DB2BF6F53C0045E651 /* TextTyperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2E878B82BF6F5390045E651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A2E878BF2BF6F5390045E651 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A2E878D02BF6F53C0045E651 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A2E878BF2BF6F5390045E651;
+					};
+					A2E878DA2BF6F53C0045E651 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A2E878BF2BF6F5390045E651;
+					};
+				};
+			};
+			buildConfigurationList = A2E878BB2BF6F5390045E651 /* Build configuration list for PBXProject "TextTyper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2E878B72BF6F5390045E651;
+			productRefGroup = A2E878C12BF6F5390045E651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2E878BF2BF6F5390045E651 /* TextTyper */,
+				A2E878D02BF6F53C0045E651 /* TextTyperTests */,
+				A2E878DA2BF6F53C0045E651 /* TextTyperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2E878BE2BF6F5390045E651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E878C82BF6F53B0045E651 /* Assets.xcassets in Resources */,
+				A2E878CB2BF6F53B0045E651 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E878CF2BF6F53C0045E651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E878D92BF6F53C0045E651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2E878BC2BF6F5390045E651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E878C62BF6F5390045E651 /* ViewController.swift in Sources */,
+				A2E878C42BF6F5390045E651 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E878CD2BF6F53C0045E651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E878D62BF6F53C0045E651 /* TextTyperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E878D72BF6F53C0045E651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E878E22BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift in Sources */,
+				A2E878E02BF6F53C0045E651 /* TextTyperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2E878D32BF6F53C0045E651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2E878BF2BF6F5390045E651 /* TextTyper */;
+			targetProxy = A2E878D22BF6F53C0045E651 /* PBXContainerItemProxy */;
+		};
+		A2E878DD2BF6F53C0045E651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2E878BF2BF6F5390045E651 /* TextTyper */;
+			targetProxy = A2E878DC2BF6F53C0045E651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2E878C92BF6F53B0045E651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2E878CA2BF6F53B0045E651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2E878E32BF6F53C0045E651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2E878E42BF6F53C0045E651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A2E878E62BF6F53C0045E651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextTyper/TextTyper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.osmos.TextTyper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2E878E72BF6F53C0045E651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TextTyper/TextTyper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.osmos.TextTyper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A2E878E92BF6F53C0045E651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.osmos.TextTyperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextTyper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextTyper";
+			};
+			name = Debug;
+		};
+		A2E878EA2BF6F53C0045E651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.osmos.TextTyperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextTyper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextTyper";
+			};
+			name = Release;
+		};
+		A2E878EC2BF6F53C0045E651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.osmos.TextTyperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TextTyper;
+			};
+			name = Debug;
+		};
+		A2E878ED2BF6F53C0045E651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.osmos.TextTyperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TextTyper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2E878BB2BF6F5390045E651 /* Build configuration list for PBXProject "TextTyper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E878E32BF6F53C0045E651 /* Debug */,
+				A2E878E42BF6F53C0045E651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E878E52BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E878E62BF6F53C0045E651 /* Debug */,
+				A2E878E72BF6F53C0045E651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E878E82BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E878E92BF6F53C0045E651 /* Debug */,
+				A2E878EA2BF6F53C0045E651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E878EB2BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E878EC2BF6F53C0045E651 /* Debug */,
+				A2E878ED2BF6F53C0045E651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2E878B82BF6F5390045E651 /* Project object */;
+}
