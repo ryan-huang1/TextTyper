@@ -32,8 +32,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @objc func typeText() {
-        // Type the copied text
-        typeCopiedText()
+        // Add a 3-second delay before typing the text
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            self.typeCopiedText()
+        }
     }
 
     @objc func quitApp() {
@@ -47,7 +49,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Register the global shortcut and assign the action
         MASShortcutMonitor.shared().register(shortcut, withAction: { [weak self] in
-            self?.typeCopiedText()
+            self?.typeText()
         })
     }
     
