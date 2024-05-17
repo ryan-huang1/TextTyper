@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56BB6EBADF1CCF4CB6466812 /* Pods_TextTyperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C401EF16B4C2A262616110BC /* Pods_TextTyperUITests.framework */; };
+		9C9765F3E0D4D131F0C1CA82 /* Pods_TextTyper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7726F54C783D79326436FEA2 /* Pods_TextTyper.framework */; };
 		A2E878C42BF6F5390045E651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878C32BF6F5390045E651 /* AppDelegate.swift */; };
 		A2E878C62BF6F5390045E651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878C52BF6F5390045E651 /* ViewController.swift */; };
 		A2E878C82BF6F53B0045E651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E878C72BF6F53B0045E651 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		A2E878D62BF6F53C0045E651 /* TextTyperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878D52BF6F53C0045E651 /* TextTyperTests.swift */; };
 		A2E878E02BF6F53C0045E651 /* TextTyperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878DF2BF6F53C0045E651 /* TextTyperUITests.swift */; };
 		A2E878E22BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E878E12BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift */; };
+		D0A10080DA044F7BE4AF874D /* Pods_TextTyperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0EE43366DA2FDF11C6358D /* Pods_TextTyperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110D8E7267D73E5AA4744A95 /* Pods-TextTyperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextTyperUITests.release.xcconfig"; path = "Target Support Files/Pods-TextTyperUITests/Pods-TextTyperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E0EE43366DA2FDF11C6358D /* Pods_TextTyperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextTyperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7726F54C783D79326436FEA2 /* Pods_TextTyper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextTyper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8967CDDC08281DF8D06DC7CB /* Pods-TextTyperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextTyperUITests.debug.xcconfig"; path = "Target Support Files/Pods-TextTyperUITests/Pods-TextTyperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F440D726B4AD0EB6FB6608E /* Pods-TextTyperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextTyperTests.debug.xcconfig"; path = "Target Support Files/Pods-TextTyperTests/Pods-TextTyperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2E878C02BF6F5390045E651 /* TextTyper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTyper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E878C32BF6F5390045E651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E878C52BF6F5390045E651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +53,10 @@
 		A2E878DB2BF6F53C0045E651 /* TextTyperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTyperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E878DF2BF6F53C0045E651 /* TextTyperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTyperUITests.swift; sourceTree = "<group>"; };
 		A2E878E12BF6F53C0045E651 /* TextTyperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTyperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF719FAB9C363D407B0AF847 /* Pods-TextTyper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextTyper.debug.xcconfig"; path = "Target Support Files/Pods-TextTyper/Pods-TextTyper.debug.xcconfig"; sourceTree = "<group>"; };
+		C401EF16B4C2A262616110BC /* Pods_TextTyperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextTyperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9A525B86B66D052F5014E9 /* Pods-TextTyper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextTyper.release.xcconfig"; path = "Target Support Files/Pods-TextTyper/Pods-TextTyper.release.xcconfig"; sourceTree = "<group>"; };
+		D801B49C2F3130F50009D4E3 /* Pods-TextTyperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextTyperTests.release.xcconfig"; path = "Target Support Files/Pods-TextTyperTests/Pods-TextTyperTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9765F3E0D4D131F0C1CA82 /* Pods_TextTyper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A10080DA044F7BE4AF874D /* Pods_TextTyperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BB6EBADF1CCF4CB6466812 /* Pods_TextTyperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,8 @@
 				A2E878D42BF6F53C0045E651 /* TextTyperTests */,
 				A2E878DE2BF6F53C0045E651 /* TextTyperUITests */,
 				A2E878C12BF6F5390045E651 /* Products */,
+				B6A2D95DBCD7A65DD8182CE7 /* Pods */,
+				EAF13D1FD6ABDAAC574EC11F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +138,29 @@
 			path = TextTyperUITests;
 			sourceTree = "<group>";
 		};
+		B6A2D95DBCD7A65DD8182CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF719FAB9C363D407B0AF847 /* Pods-TextTyper.debug.xcconfig */,
+				CF9A525B86B66D052F5014E9 /* Pods-TextTyper.release.xcconfig */,
+				8F440D726B4AD0EB6FB6608E /* Pods-TextTyperTests.debug.xcconfig */,
+				D801B49C2F3130F50009D4E3 /* Pods-TextTyperTests.release.xcconfig */,
+				8967CDDC08281DF8D06DC7CB /* Pods-TextTyperUITests.debug.xcconfig */,
+				110D8E7267D73E5AA4744A95 /* Pods-TextTyperUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAF13D1FD6ABDAAC574EC11F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7726F54C783D79326436FEA2 /* Pods_TextTyper.framework */,
+				5E0EE43366DA2FDF11C6358D /* Pods_TextTyperTests.framework */,
+				C401EF16B4C2A262616110BC /* Pods_TextTyperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2E878E52BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyper" */;
 			buildPhases = (
+				3153C6E2D229E179CDA33B3B /* [CP] Check Pods Manifest.lock */,
 				A2E878BC2BF6F5390045E651 /* Sources */,
 				A2E878BD2BF6F5390045E651 /* Frameworks */,
 				A2E878BE2BF6F5390045E651 /* Resources */,
+				26CAE530F4A97B87D206897C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2E878E82BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyperTests" */;
 			buildPhases = (
+				C47121CACF418AFB1FB106A9 /* [CP] Check Pods Manifest.lock */,
 				A2E878CD2BF6F53C0045E651 /* Sources */,
 				A2E878CE2BF6F53C0045E651 /* Frameworks */,
 				A2E878CF2BF6F53C0045E651 /* Resources */,
@@ -163,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2E878EB2BF6F53C0045E651 /* Build configuration list for PBXNativeTarget "TextTyperUITests" */;
 			buildPhases = (
+				10B1D1754E50C9C5D2B68191 /* [CP] Check Pods Manifest.lock */,
 				A2E878D72BF6F53C0045E651 /* Sources */,
 				A2E878D82BF6F53C0045E651 /* Frameworks */,
 				A2E878D92BF6F53C0045E651 /* Resources */,
@@ -245,6 +289,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10B1D1754E50C9C5D2B68191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextTyperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26CAE530F4A97B87D206897C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextTyper/Pods-TextTyper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextTyper/Pods-TextTyper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextTyper/Pods-TextTyper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3153C6E2D229E179CDA33B3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextTyper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47121CACF418AFB1FB106A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextTyperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2E878BC2BF6F5390045E651 /* Sources */ = {
@@ -420,13 +550,17 @@
 		};
 		A2E878E62BF6F53C0045E651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF719FAB9C363D407B0AF847 /* Pods-TextTyper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TextTyper/TextTyper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32C2HLCXQT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -445,13 +579,17 @@
 		};
 		A2E878E72BF6F53C0045E651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9A525B86B66D052F5014E9 /* Pods-TextTyper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TextTyper/TextTyper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32C2HLCXQT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -470,6 +608,7 @@
 		};
 		A2E878E92BF6F53C0045E651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F440D726B4AD0EB6FB6608E /* Pods-TextTyperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +627,7 @@
 		};
 		A2E878EA2BF6F53C0045E651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D801B49C2F3130F50009D4E3 /* Pods-TextTyperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +646,7 @@
 		};
 		A2E878EC2BF6F53C0045E651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8967CDDC08281DF8D06DC7CB /* Pods-TextTyperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +663,7 @@
 		};
 		A2E878ED2BF6F53C0045E651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110D8E7267D73E5AA4744A95 /* Pods-TextTyperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
